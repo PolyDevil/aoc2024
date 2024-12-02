@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "day1_1": "deno run --allow-env --allow-net ./day1/part1.ts",
+    "day1_2": "deno run --allow-env --allow-net ./day1/part2.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "Solution": "./solution.ts",
+    "Input": "./input.ts"
+  }
+}
